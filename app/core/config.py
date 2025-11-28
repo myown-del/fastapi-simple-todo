@@ -2,7 +2,7 @@
 App`s config module
 '''
 
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 from .db import TortoiseSettings
 
 

@@ -2,7 +2,8 @@
 Config of Tortoise ORM
 '''
 
-from pydantic import Field, BaseSettings
+from pydantic import Field
+from pydantic_settings import BaseSettings
 
 
 DB_MODELS = ["app.models"]
